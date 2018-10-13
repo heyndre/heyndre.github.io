@@ -81,12 +81,16 @@ div {
 }
 
 #toplogo {
-        display: inline-block;
-    vertical-align: middle;
+    display: inline-block;
     width: 60px;
     height: 60px;
-    margin-right: 20px;
-    margin-top: 15px;
+    padding-right: 50%;
+    border: solid;
+    border-bottom: none;
+    border-right: 2px;
+    border-top: none;
+    border-left: none;
+    border-color: black
 }
 
 #topplogo {
