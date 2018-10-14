@@ -1,4 +1,4 @@
- /* The navigation bar */
+  /* The navigation bar */
 .navbar {
     overflow: hidden;
     background-color: #ffffff;
@@ -81,10 +81,10 @@ div {
 
 
 #toplogo {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    padding-right: 50%;
+    display: block;
+    width: 80px;
+    height: 100%;
+/*    padding-right: 50%;*/
     border: solid;
     border-bottom: none;
     border-right: 2px;
@@ -106,4 +106,9 @@ div {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+}
+
+#toplogotd {
+    width: 100%;
+    display: block;
 }
