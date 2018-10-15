@@ -8,7 +8,7 @@
     border-bottom-color: black;
     border-bottom-style: solid;
     box-shadow: 0px 5px 25px grey;
-    height: 15%;
+    height:15%;
     font-family: Nanum Gothic;
 }
 
@@ -139,3 +139,45 @@ div {
 .title {
     padding-bo
 }
+
+.fa {
+    padding-left: 5px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-instagram {
+   background: #000000;
+    color: white;
+}
+
+.fa-envelope {
+    color: white;
+}
+
+
+
+
+
+
+
+#deskripsi {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#struktur {
+    padding-top: 8%;
+}
+
+#logoBPM {
+    position: fixed;
+    height: auto;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    opacity: 0.3;
+}
+
+
