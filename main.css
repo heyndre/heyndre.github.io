@@ -30,6 +30,12 @@
     color: black;
 }
 
+
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
 /* Main content */
 .main {
      height: 80%;
@@ -41,24 +47,15 @@
     color: white;
     }
 
-img {
-
-}
-
 #logo {
-    float: left;
-    border-right-color: black;
-    border-right-style: solid;
-    padding-bottom: 10;
-    padding-right: 25;
-    padding-left: 25;
 
 }
 
 #judul {
-    font-size: 25;
+    font-size: 50px;
     font-family:ubuntu;
     color: white;
+    background-color: black;
 }
 
 #text {
@@ -81,16 +78,23 @@ div {
 
 
 #toplogo {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    padding-right: 50%;
+    display: block;
+    width: 89px;
+    height: 90px;
+/*    padding-right: 50%;*/
     border: solid;
     border-bottom: none;
-    border-right: 2px;
     border-top: none;
     border-left: none;
-    border-color: black
+    border-color: black;
+
+    float: left;
+    border-right-color: black;
+    border-right-style: solid;
+    margin-right: 10;
+    padding-bottom: 10;
+    padding-right: 25;
+    padding-left: 25;
 }
 
 #topplogo {
@@ -106,4 +110,32 @@ div {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+}
+
+
+
+#beranda {
+    padding-left: 30%;
+}
+
+
+.background {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background: rgb(204, 204, 204);
+    background: rgba(204, 204, 204, 0.5);
+    height: 250px;
+}
+
+
+
+.content {
+    font-size: 20px;
+    padding-top: 18px;
+    position: relative;
+}
+
+.title {
+    padding-bo
 }
