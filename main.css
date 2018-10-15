@@ -226,3 +226,21 @@ div {
     text-align: center;
     text-decoration: none;
 }
+
+.bgbiasa {
+    background-image: url(BPM%20logo%2050%25.png);
+/*    padding-top: 20%;*/
+/*    padding-bottom: 20%;*/
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-attachment: scroll;
+    margin-top: 15%;
+}
+
+.struktur {
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
