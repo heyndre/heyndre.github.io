@@ -103,7 +103,7 @@ div {
 
 
 .foot {
-    font-size: 13pt;
+    font-size: 1.3vw;
     font-family: Nanum Gothic;
     position: fixed;
     bottom: 0;
@@ -243,6 +243,6 @@ div {
 
 .struktur {
     align-items: center;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
