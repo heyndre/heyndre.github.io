@@ -105,17 +105,18 @@ text-align: left}
 }
 
 
-.foot {
+    .foot {
     font-size: 1.3vw;
     font-family: Nanum Gothic;
     bottom: 0;
     width: 100%;
-    margin-top: 2%;
+/*        height: 500px;*/
+    margin-top: 150px;
     margin-bottom: 0px;
     position: relative;
     left: 0;
-    z-index: -1;
-    padding-top: 500px;
+    z-index: 0;
+        float: left;
 }
 
 
@@ -233,6 +234,7 @@ text-align: left}
 /*    padding-top: 20%;*/
 /*    padding-bottom: 20%;*/
     background-repeat: no-repeat;
+    background-position: top;
 /*    background-size: contain;*/
     margin-top: 45%;
 /*    margin-bottom: 15%;*/
@@ -264,6 +266,8 @@ body {
 .body {
     padding-left: 15%;
     padding-right: 15%;
+    height: 100%;
+    margin-bottom: 150px;
 }
 
 
@@ -304,4 +308,24 @@ body {
     border: 1px solid black;
     color: black;
     float: right;
+}
+
+.abovefooter {
+    background-color: darkgray;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+    float: left;
+    height: 400px;
+}
+
+
+
+.menyu {
+/*        list-style-type: none;*/
+    float: right;
+}
+
+.footr {
+    width: 100%;
 }
