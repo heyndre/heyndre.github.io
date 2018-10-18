@@ -33,8 +33,6 @@
     color: black;
 }
 
-
-
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
 }
@@ -329,3 +327,37 @@ body {
 .footr {
     width: 100%;
 }
+
+
+
+input {
+    width: 400px;
+    height: 25px;
+    background: linear-gradient(to right, #ffffff 0%, #aaaaaa 100%);
+}
+
+#konten {
+    width: 600px;
+    padding-left: 32%;
+}
+
+form {
+    padding-left: 36%;
+}
+
+#rincian {
+    height: 100px;
+}
+
+#button1 {
+    border-radius: 20px;
+    width: 10%;
+    height: 40px
+}
+
+#back {
+    background: rgb(204, 204, 204);
+    background: rgba(204, 204, 204, 0.5);
+}
+
+
