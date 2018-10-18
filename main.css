@@ -521,3 +521,18 @@ input[type="text"]:active {
 /*    margin-top: 5px;*/
 /*    justify-self: center*/
 }
+
+.kontenhub {
+    padding-left: 30%;
+    padding-right: 30%
+}
+
+.search-container {
+    float: right;
+    padding-top: 40px;
+    padding-right: 30px;
+}
+
+#cari1 {
+    border-radius: 20px;
+}

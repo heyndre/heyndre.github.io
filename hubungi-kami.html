@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--    <link rel="stylesheet" href="font-awesome.min.css">-->
     <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
 </head>
@@ -20,40 +21,53 @@
             <td><a href="kegiatan.html">Kegiatan</a></td>
             <td><a href="informasi.html">Informasi</a></td>
             <td><a href="hubungi-kami.html" style="color: white; background-color: blue; font-weight: 900">Hubungi Kami</a></td>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input id="cari1" type="text" placeholder="Cari di BPM ILKOM" name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
         </tr>
     </table>
 </nav>
 
 <body class="bgbiasa">
-    <h1 align="center">Jalur Aspirasi</h1>
-    <form>
-        Nama Lengkap <br>
-        <input type="text" name="namadepan" placeholder="  Nama Lengkap saya" class="input">
+    <h1 style="text-align: center">Kegiatan BPM ILKOM UNEJ</h1>
+    <hr style="width: 80%">
+    <div class="kontenhub">
+        <p>Anda memiliki kritik atau saran maupun pendapat terhadap pihak-pihak di dalam Fakultas Ilmu Komputer Universitas Jember?</p>
         <br>
-        Alamat Email <br>
-        <input type="email" name="email" placeholder="  Alamat email saya" class="input">
-        <br>
-        Nomor Telepon <br>
-        <input type="text" name="notelp" placeholder="  Nomor telepon saya" class="input">
-        <br>
-        Kategori yang dibahas<br>
-        Judul Aspirasi <br>
-        <input type="text" name="judul" placeholder="  Judul Aspirasi saya" class="input">
-        <br>
-        Rincian<br>
-        <input type="text" id="rincian" name="rincian" placeholder="  Rincian aspirasi usahakan serinci mungkin" class="input">
-        <br>
-        <br>
-        <button id="button1">KIRIM</button>
-    </form>
-    <p id="konten">Pastikan data yang anda masukkan benar dan sesuai dengan keadaan sebenarnya. Usahakan mengisi setiap detail serinci mungkin agar tindakan lebih lanjut dapat lebih mudah dilakukan.</p>
+        <p>Sampaikan kepada kami melalui isian di bawah ini</p>
+    </div>
+    <h3 align="center">Jalur Aspirasi</h1>
+        <form>
+            Nama Lengkap <br>
+            <input type="text" name="namadepan" placeholder="  Nama Lengkap saya" class="input">
+            <br>
+            Alamat Email <br>
+            <input type="email" name="email" placeholder="  Alamat email saya" class="input">
+            <br>
+            Nomor Telepon <br>
+            <input type="text" name="notelp" placeholder="  Nomor telepon saya" class="input">
+            <br>
+            Kategori yang dibahas<br>
+            Judul Aspirasi <br>
+            <input type="text" name="judul" placeholder="  Judul Aspirasi saya" class="input">
+            <br>
+            Rincian<br>
+            <input type="text" id="rincian" name="rincian" placeholder="  Rincian aspirasi usahakan serinci mungkin" class="input">
+            <br>
+            <br>
+            <button id="button1">KIRIM</button>
+        </form>
+        <p id="konten">Pastikan data yang anda masukkan benar dan sesuai dengan keadaan sebenarnya. Usahakan mengisi setiap detail serinci mungkin agar tindakan lebih lanjut dapat lebih mudah dilakukan.</p>
 </body>
 <footer class="foot">
-   <div class="abovefooter">
+    <div class="abovefooter">
         <div class="searchbarlong">
-<!--        <span class="fa fa-search"></span>-->
-<!--        <input placeholder="Cari di BPM ILKOM">-->
-<!--
+            <!--        <span class="fa fa-search"></span>-->
+            <!--        <input placeholder="Cari di BPM ILKOM">-->
+            <!--
                                <form method="get" id="searchform" action="">
                         <input type="image" id="searchsubmit" class="btn-search" src="search.png" />
                         <input type="text" id="s" class="txt-search" placeholder="Cari di BPM ILKOM UNEJ"/>
@@ -93,7 +107,7 @@
             <p class="isi_footr">| Open Talk 2018</p>
             <p class="isi_footr">| Serap Aspirasi 2018</p>
             <p class="isi_footr">| Voice of Change 2017</p>
-<!--            <p class="isi_footr">| Voice of Change</p>-->
+            <!--            <p class="isi_footr">| Voice of Change</p>-->
         </div>
 
     </div>
