@@ -424,5 +424,8 @@ form {
     height: 40px;
     border: none;
     border-radius: 25px;
+    background-image: url("search.png)");
+    background-repeat: no-repeat;
+    background-position: 2px 3px;
 /*    vertical-align: middle;*/
 }
