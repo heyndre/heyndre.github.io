@@ -1,65 +1,55 @@
-@media only screen and (min-width: 768px) {
-
-    /* For desktop: */
-    .col-1 {
-        width: 8.33%;
-    }
-
-    .col-2 {
-        width: 16.66%;
-    }
-
-    .col-3 {
-        width: 25%;
-    }
-
-    .col-4 {
-        width: 33.33%;
-    }
-
-    .col-5 {
-        width: 41.66%;
-    }
-
-    .col-6 {
-        width: 50%;
-    }
-
-    .col-7 {
-        width: 58.33%;
-    }
-
-    .col-8 {
-        width: 66.66%;
-    }
-
-    .col-9 {
-        width: 75%;
-    }
-
-    .col-10 {
-        width: 83.33%;
-    }
-
-    .col-11 {
-        width: 91.66%;
-    }
-
-    .col-12 {
-        width: 100%;
-    }
+ /* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
 }
-
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    .logo {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    background: white;
+}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .logo {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    background: white;
+}
+}
 /* The navigation bar */
 .navbar {
     box-shadow: 0px 10px 10px grey;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
-
-
-
-
 
 #myBtn:hover {
     background-color: #555;
@@ -104,9 +94,9 @@
     text-align: left
 }
 
-
-
-
+* {
+    box-sizing: border-box;
+}
 
 #toplogo {
     display: block;
@@ -244,7 +234,6 @@
 }
 
 .title {
-    padding-bo
 }
 
 .fa {
@@ -264,9 +253,7 @@
     /*    background-size: contain;*/
 /*    margin-top: 45%;*/
     /*    margin-bottom: 15%;*/
-    width: 100%;
-    height: 100%;
-    left: 0;
+
     background-position: center;
     background-attachment: scroll;
 /*    margin-top: 15%;*/
@@ -401,8 +388,8 @@ form {}
 .input {
     border: none;
     box-shadow: 0px 5px 5px grey;
-    /*        width: 100%;*/
-    max-width: 70%;
+            width: 100%;
+/*    max-width: 80%;*/
     height: 25px;
     background: linear-gradient(to right, #ffffff 0%, #aaaaaa 100%);
     padding-left: 5px;
@@ -563,16 +550,9 @@ input[type="text"]:active {
     /*    width: 48%;*/
 }
 
-.bghub {}
-
-
-
 .judul1 {
     color: white;
-
 }
-
-
 
 #back2 {
     background-color: yellow;
@@ -662,7 +642,7 @@ input[type="text"]:active {
 
 }
 
- /* Add a black background color to the top navigation */
+ /* Add a white background color to the top navigation */
 .topnav {
     background-color: #ffffff;
     overflow: hidden;
@@ -698,58 +678,6 @@ input[type="text"]:active {
     display: none;
 }
 
-@media only screen and (min-width: 600px) {
-
-    /* For tablets: */
-    .col-s-1 {
-        width: 8.33%;
-    }
-
-    .col-s-2 {
-        width: 16.66%;
-    }
-
-    .col-s-3 {
-        width: 25%;
-    }
-
-    .col-s-4 {
-        width: 33.33%;
-    }
-
-    .col-s-5 {
-        width: 41.66%;
-    }
-
-    .col-s-6 {
-        width: 50%;
-    }
-
-    .col-s-7 {
-        width: 58.33%;
-    }
-
-    .col-s-8 {
-        width: 66.66%;
-    }
-
-    .col-s-9 {
-        width: 75%;
-    }
-
-    .col-s-10 {
-        width: 83.33%;
-    }
-
-    .col-s-11 {
-        width: 91.66%;
-    }
-
-    .col-s-12 {
-        width: 100%;
-    }
-}
-
  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -773,11 +701,17 @@ input[type="text"]:active {
     text-align: left;
   }
 }
-.logo {
-max-width: 100%;
-}
+
 
 .headtext {
-    font-size: 45pt;
+    font-size: 7vw;
     color: yellow;
+/*    float: right*/
+}
+
+.logo {
+        width: 100%;
+    height: auto;
+    background: white;
+}
 }
