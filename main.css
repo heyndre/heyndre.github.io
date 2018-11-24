@@ -54,6 +54,8 @@
     /* Add a dark-grey background on hover */
 }
 
+
+
 /* Main content */
 .main {
 /*    height: 80%;*/
@@ -278,10 +280,7 @@ body {
 
 
 .body {
-    padding-left: 15%;
-    padding-right: 15%;
-    height: 100%;
-    margin-bottom: 150px;
+
 }
 
 
@@ -505,6 +504,16 @@ form {}
     padding: 3px 10px 3px 10px;
 }
 
+a:hover{
+    color: black;
+    background-color: yellow;
+}
+
+#readmoreinfo:hover {
+    background-color: red;
+    color: white;
+}
+
 input[type="text"]:hover {
     box-shadow: 0px 3px 5px yellow;
 }
@@ -715,3 +724,9 @@ input[type="text"]:active {
     background: white;
 }
 }
+
+
+
+
+
+
