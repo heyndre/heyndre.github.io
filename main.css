@@ -249,7 +249,7 @@
     /*    padding-top: 20%;*/
     /*    padding-bottom: 20%;*/
     background-repeat: no-repeat;
-    background-position: top;
+/*    background-position: right 10%;*/
     /*    background-size: contain;*/
 /*    margin-top: 45%;*/
     /*    margin-bottom: 15%;*/
@@ -267,13 +267,7 @@
     height: auto;
 }
 
-body {
-    background-image: url(bghome.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0;
-}
+
 
 
 
@@ -650,6 +644,8 @@ input[type="text"]:active {
     overflow: hidden;
     box-shadow: 0px 5px 5px grey;
     width: 100%;
+     font-family: 'Niramit', sans-serif;
+/*    margin-left: -1%;*/
 }
 
 /* Style the links inside the navigation bar */
@@ -708,6 +704,7 @@ input[type="text"]:active {
 .headtext {
     font-size: 7vw;
     color: yellow;
+     font-family: 'Niramit', sans-serif;
 /*    float: right*/
 }
 
@@ -719,3 +716,13 @@ input[type="text"]:active {
 }
 
 
+
+.bgfoto {
+    background-image: url(bghome.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding: 0;
+    font-family: 'Niramit', sans-serif;
+}
