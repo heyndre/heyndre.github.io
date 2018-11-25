@@ -57,7 +57,7 @@
 /* Main content */
 .main {
 /*    height: 80%;*/
-/*    margin-top: 5%;*/
+    margin-top: 5%;
     /* Add a top margin to avoid content overlay */
 /*    padding-top: 20%;*/
 /*    padding-bottom: 20%;*/
@@ -272,6 +272,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 0;
 }
 
 
@@ -423,6 +424,7 @@ form {}
     font-family: Oxygen;
     font-size: 14pt;
     font-weight: 900;
+    width: 100%;
 }
 
 
