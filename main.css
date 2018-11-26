@@ -25,6 +25,49 @@
     .col-s-6-view {
         width: 66.66%; margin-left: 25%; margin-left: 25%;
     }
+    .col-s-5-str1 {
+        width: 41.66%;
+        background-color: yellow;
+        color: darkblue;
+/*
+        padding-left: 20%;
+        padding-right: 20%;
+*/
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+.col-s-7-str1 {
+        width: 58.33%;
+    padding-top: 11%;
+    padding-bottom: 11%;
+}
+    .col-s-12-str1 {
+        width: 100%;
+        background-color: yellow;
+        color: darkblue;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .col-s-12-str2 {
+        width: 100%;
+        background-color: #0a2264;
+        color: white;
+    }
+    .col-s-12-str3 {
+        width: 100%;
+        background-color: #308fe0;
+        color: white;
+    }
+    .col-s-12-str4 {
+        width: 100%;
+        background-color: #1246d6;
+        color: white;
+    }
+    .col-s-12-str5 {
+        width: 100%;
+        background-color: #0634b2;
+        color: white;
+    }
 }
 @media only screen and (min-width: 768px) {
     /* For desktop: */
@@ -54,6 +97,46 @@
     .textb {
         text-align: center;
     }
+    .col-5-str1 {
+    width: 41.66%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+        .col-7-str1 {
+    width: 58.33%;
+    padding-top: 11%;
+    padding-bottom: 11%;
+}
+
+    .col-12-str1 {
+        width: 100%;
+        background-color: yellow;
+        color: darkblue;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    .col-12-str2 {
+        width: 100%;
+        background-color: #0a2264;
+        color: white;
+    }
+    .col-12-str3 {
+        width: 100%;
+        background-color: #308fe0;
+        color: white;
+    }
+    .col-12-str4 {
+        width: 100%;
+        background-color: #1246d6;
+        color: white;
+    }
+    .col-12-str5 {
+        width: 100%;
+        background-color: #0634b2;
+        color: white;
+    }
 }
 /* The navigation bar */
 .navbar {
@@ -69,7 +152,7 @@
 
 /* Main content */
 .main {
-/*    height: 80%;*/
+    height: 80%;
     margin-top: 5%;
     /* Add a top margin to avoid content overlay */
 /*    padding-top: 20%;*/
@@ -79,7 +162,7 @@
     color: white;
     left: 0;
     width: 100%;
-
+    margin-bottom: 25%
 }
 
 #logo {}
@@ -312,7 +395,7 @@
     width: 100%
 }
 
-#readmore {
+.readmore {
     box-shadow: 0px 5px 0px darkblue;
     background-color: black;
     color: white;
@@ -322,6 +405,18 @@
     font-size: 12pt;
     border: none;
     padding: 3px 10px 3px 10px;
+}
+.readmore a {
+    color: white;
+    text-decoration: none;
+}
+.readmore a:hover {
+    color: black;
+    text-decoration: none;
+}
+.readmore:hover {
+    background-color: yellow;
+    color: black;
 }
 
 .boxgenap {
@@ -504,17 +599,7 @@ form {}
     width: 100%;
 }
 
-#readmoreinfo {
-    box-shadow: 0px 5px 0px yellow;
-    background-color: black;
-    color: white;
-    max-width: 25%;
-    height: 40px;
-    font-family: Nanum Gothic;
-    font-size: 12pt;
-    border: none;
-    padding: 3px 10px 3px 10px;
-}
+
 
 input[type="text"]:hover {
     box-shadow: 0px 3px 5px yellow;
@@ -618,6 +703,17 @@ input[type="text"]:active {
     content: "";
     clear: both;
     display: table;
+}
+.rowp::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.rowp1 {
+    background-color: yellow;
+    color: blue;
+    padding-left: 11%;
+    padding-right: 11%;
 }
 
 #bghub {
@@ -730,8 +826,6 @@ input[type="text"]:active {
 }
 }
 
-
-
 .bgfoto {
     background-image: url(bghome.jpg);
     background-size: cover;
@@ -748,13 +842,101 @@ input[type="text"]:active {
     background-color: black;
 }
 
-
-
 .textb {
     padding-left: 30px;
     color: white;
 }
 
-.textb a {
+.textb a:link {
     color: white;
+}
+
+.readmoreinfo {
+    box-shadow: 0px 5px 0px yellow;
+    background-color: black;
+    color: white;
+    max-width: 45%;
+    height: 40px;
+    font-family: Nanum Gothic;
+    font-size: 12pt;
+    border: none;
+    padding: 3px 10px 3px 10px;
+}
+.readmoreinfo a {
+    color: white;
+    text-decoration: none;
+}
+.readmoreinfo a:hover {
+    color: black;
+    text-decoration: none;
+}
+.readmoreinfo:hover {
+    color: black;
+    background-color: yellow;
+}
+
+.img1 {
+    border: solid;
+    border-radius: 50%;
+    width: 70%;
+    border-width: 5pt;
+    border-color: darkblue;
+    float: left
+}
+
+.namaketua {
+    text-decoration: underline;
+    color: darkblue;
+    font-size: 5vw;
+    vertical-align:
+/*    padding-top: 5%;*/
+}
+
+.ket {
+            background-color: yellow;
+        color: darkblue;
+        padding-left: 20%;
+        padding-right: 20%;
+
+}
+
+
+.ketua {
+    font-weight: 900;
+    font-size: 3vw;
+}
+
+.rowp2 {
+        background-color: #29118e;
+    color: blue;
+    padding-left: 11%;
+    padding-right: 11%;
+
+}
+
+.img2 {
+        border: solid;
+    border-radius: 50%;
+    width: 100%;
+    border-width: 5pt;
+    border-color: #0054a6;
+}
+
+.namaco {
+    font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 400;
+    color: white;
+    font-size: 3vw;
+    text-decoration: underline;
+}
+
+.co {
+    font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 400;
+    color: white;
+    font-size: 1.5vw;
 }
