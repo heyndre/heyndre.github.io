@@ -171,7 +171,7 @@
 /* Main content */
 .main {
     height: 80%;
-    margin-top: 5%;
+    margin-top: 15%;
     /* Add a top margin to avoid content overlay */
 /*    padding-top: 20%;*/
 /*    padding-bottom: 20%;*/
@@ -180,7 +180,7 @@
     color: white;
     left: 0;
     width: 100%;
-    margin-bottom: 25%
+    margin-bottom: 15%
 }
 
 #logo {}
@@ -273,12 +273,10 @@
 
 
 .content {
-    /*
     font-size: 20px;
     padding-top: 18px;
     position: relative;
-*/
-
+    font-family : Oxygen;
 }
 
 
