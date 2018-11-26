@@ -10,30 +10,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <script src="/the.js"></script>
 </head>
-<nav class="navbar">
-    <table style="height: 100%; vertical-align: top;">
-        <tr>
-            <td><img id="toplogo" src="/logo.png"></td>
-            <td><a href="/index.html">Beranda</a></td>
-            <td><a href="/Profil.html">Profil</a></td>
-            <td><a href="/kegiatan.html" >Kegiatan</a></td>
-            <td><a href="/informasi.html" style="color: white; background-color: blue; font-weight: 900">Informasi</a></td>
-            <td><a href="/hubungi-kami.html">Hubungi Kami</a></td>
-            <div class="search-container">
-                <form action="/action_page.php">
-                    <input id="cari1" type="text" placeholder="Cari di BPM ILKOM" name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-            </div>
-        </tr>
-    </table>
-</nav>
+    <div class="row" style="background: darkblue;">
+        <div class="col-2 col-s-4" style="background: white; padding: 2% 2% 2% 2%;">
+            <img src="/BPM%20logo.png" class="logo">
+        </div>
+        <div class="col-10 col-s-8" style="padding-top: 2%; padding-bottom: 2%">
+            <span class="headtext">BPM ILKOM UNEJ</span>
+        </div>
+    </div>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Beranda</a>
+        <a href="Profil.html">Profil</a>
+        <a href="kegiatan.html">Kegiatan</a>
+        <a href="informasi.html">Informasi</a>
+        <a href="hubungi-kami.html" class="active">Hubungi Kami</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
 <body class="bgbiasa">
     <h1 style="text-align: center">Informasi BPM ILKOM UNEJ</h1>
     <hr style="width: 80%">
-        <div class="col-6" style="margin-left: 25%; margin-right: 25%">
+        <div class="col-6-view col-s-6-view">
             <img src="\6.jpg" style="width: 100%">
         </div>
     <br>
@@ -42,25 +43,26 @@
     <br>
     <h3 style="text-align: center">Contoh Laporan Pertanggungjawaban</h3>
     <div class="col-6" style="margin-left: 25%; margin-right: 25%"><object width="100%" height="1024px" data="1.pdf"></object></div>
-    <div class="col-6" style="margin-left: 25%; margin-right: 25%"><button id="readmoreinfo" style="max-width: 100%; width: 100%"><a href="/informasi.html">Kembali ke Informasi</a></button></div>
+    <div class="col-6-view col-s-6-view"><button id="readmoreinfo" style="max-width: 100%; width: 100%"><a href="/informasi.html">Kembali ke Informasi</a></button></div>
 </body>
-<footer class="foot">
-    <div class="abovefooter">
-        <div class="searchbarlong">
-<!--        <span class="fa fa-search"></span>-->
-<!--        <input placeholder="Cari di BPM ILKOM">-->
-            <input type="email" name="email" placeholder="  Cari di BPM ILKOM" class="bottomsearchbar">
-        </div>
-        <div class="footr">
-            <p class="judul_footr">Kategori</p>
+<footer>
+           <div class="row" style="margin-left: 16.66%;margin-right: 16.66%;margin-top: 5%">
+               <div class="col-12 col-s-12">
+                <input type="text" name="searchbottom" placeholder="  Cari di BPM ILKOM" class="bottomsearchbar">
+               </div>
+           </div>
+
+<div class="row" style="margin-left: 16.66%;margin-right: 16.66%;">
+    <div class="col-3 col-s-6">
+           <p class="judul_footr">Kategori</p>
             <br>
             <p class="isi_footr">| Serap Aspirasi</p>
             <p class="isi_footr">| Open Talk</p>
             <p class="isi_footr">| Penjaminan Mutu</p>
             <p class="isi_footr">| Voice of Change</p>
-        </div>
-        <div class="footr2">
-            <p class="judul_footr">Arsip</p>
+    </div>
+    <div class="col-3 col-s-6" >
+                    <p class="judul_footr">Arsip</p>
             <br>
             <p class="isi_footr">| Oktober 2018</p>
             <p class="isi_footr">| September 2018</p>
@@ -68,32 +70,38 @@
             <p class="isi_footr">| Juli 2018</p>
             <p class="isi_footr">| Juni 2018</p>
             <p class="isi_footr">Lebih Lama</p>
-        </div>
-        <div class="footr">
-            <p class="judul_footr">Informasi Terbaru</p>
+    </div>
+    <div class="col-3 col-s-6">
+        <p class="judul_footr">Informasi Terbaru</p>
             <br>
             <p class="isi_footr">| Contoh LPJ</p>
             <p class="isi_footr">| Contoh SPJ</p>
             <p class="isi_footr">| Contoh TOR</p>
             <p class="isi_footr">| Perubahan Pembuatan Proposal</p>
-        </div>
-        <div class="footr2">
-            <p class="judul_footr">Kegiatan Terbaru</p>
+    </div>
+    <div class="col-3 col-s-6">
+        <p class="judul_footr">Kegiatan Terbaru</p>
             <br>
             <p class="isi_footr">| Open Talk 2018</p>
             <p class="isi_footr">| Serap Aspirasi 2018</p>
             <p class="isi_footr">| Voice of Change 2017</p>
-<!--            <p class="isi_footr">| Voice of Change</p>-->
-        </div>
-
     </div>
-    <div style="float: inherit; width: 100%; margin-left: 0;padding-left: 0">
-        <table style="width: 100%; background-color: black; color: white;padding-left: 5%;
-    padding-right: 5%;">
-            <td id="bottomleft"><span id="text">&copy BPM ILKOM 2018 |</span> <span id="text"><a href="https://www.instagram.com/bpmilkomunej/" class="fa fa-instagram"></a><a href="https://www.instagram.com/bpmilkomunej/"> bpmilkomunej</a> |</span>
-                <span id="text"><a href="mailto:bpmpssiuj@gmail.com" class="fa fa-envelope"></a><a href="mailto:bpmpssiuj@gmail.com"> bpmpssiuj@gmail.com |</a></span></td>
-            <td id="alamat"> Universitas Jember | Jl. Kalimantan 37, Kampus Tegalboto, Jember 68121</td>
-        </table>
+</div>
+<div class="foott">
+   <div class="row">
+    <div class="col-2">
+        <span id="text">&copy BPM ILKOM 2018 |</span>
     </div>
+    <div class="col-2" style="background-color: black;">
+        <span class="textb"><a href="https://www.instagram.com/bpmilkomunej/" class="fa fa-instagram"></a><a href="https://www.instagram.com/bpmilkomunej/"> bpmilkomunej</a> |</span>
+    </div>
+    <div class="col-2" style="background-color: black;">
+        <span class="textb"><a href="mailto:bpmpssiuj@gmail.com" class="fa fa-envelope"></a><a href="mailto:bpmpssiuj@gmail.com"> bpmpssiuj@gmail.com |</a></span>
+    </div>
+    <div class="col-6" style="background-color: black;">
+        <span class="textb">Universitas Jember | Jl. Kalimantan 37, Kampus Tegalboto, Jember 68121</span>
+    </div>
+    </div>
+</div>
 </footer>
 </html>
