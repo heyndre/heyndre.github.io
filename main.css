@@ -777,6 +777,10 @@ input[type="text"]:active {
 /*    margin-left: -1%;*/
 }
 
+.active a {
+    color: white;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
@@ -797,7 +801,7 @@ input[type="text"]:active {
 /* Add an active class to highlight the current page */
 .active {
     background-color: #0a00ff;
-    color: #ffff00;
+    color: #ffffff;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
