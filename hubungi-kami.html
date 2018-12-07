@@ -49,19 +49,19 @@
                 <h3 style="text-align: center ; text-decoration: underline">Jalur Aspirasi</h3>
                 <form>
                     Nama Lengkap <br>
-                    <input type="text" name="namadepan" placeholder="  Nama Lengkap saya" class="input">
+                    <input type="text" id="namadepan" placeholder="  Nama Lengkap saya" class="input">
                     <br>
                     <br>
                     Alamat Email <br>
-                    <input type="email" name="email" placeholder="  Alamat email saya" class="input">
+                    <input type="email" id="email" placeholder="  Alamat email saya" class="input">
                     <br>
                     <br>
                     Nomor Telepon <br>
-                    <input type="text" name="notelp" placeholder="  Nomor telepon saya" class="input">
+                    <input type="text" id="notelp" placeholder="  Nomor telepon saya" class="input">
                     <br>
                     <br>
                     Kategori yang dibahas<br>
-                    <select>
+                    <select id="kategori">
                     <option value="Akademik">Akademik</option>
                     <option value="Kemahasiswaan">Kemahasiswaan</option>
                     <option value="Fasilitas">Fasilitas</option>
@@ -71,14 +71,14 @@
                     <br>
                     <br>
                     Judul Aspirasi <br>
-                    <input type="text" name="judul" placeholder="  Judul Aspirasi saya" class="input">
+                    <input type="text" id="judull" placeholder="  Judul Aspirasi saya" class="input">
                     <br>
                     <br>
                     Rincian<br>
                     <input type="text" id="rincian" name="rincian" placeholder="  Rincian aspirasi usahakan serinci mungkin" class="input">
                     <br>
                     <br>
-                    <button id="button1">KIRIM</button>
+                    <button id="button1" onclick="alertInput()">KIRIM</button>
                 </form>
                 <p id="konten">Pastikan data yang anda masukkan benar dan sesuai dengan keadaan sebenarnya. Usahakan mengisi setiap detail serinci mungkin agar tindakan lebih lanjut dapat lebih mudah dilakukan.</p>
             </div>
